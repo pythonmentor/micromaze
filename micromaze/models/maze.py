@@ -12,11 +12,7 @@ class Maze:
         """Initialise un nouveau plateau de jeu."""
         self.hero = None
         self.passages = set()
-        self.walls = set()
-        self.start = None
-        self.exit = None
-        self.height = None
-        self.width = None  
+        self.walls = set() 
         self._load_from_file(mazefile)
 
     def _load_from_file(self, mazefile):
