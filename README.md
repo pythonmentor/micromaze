@@ -25,5 +25,5 @@ Pour lancer l'application, il suffit d'utiliser la commande suivante sans
 activation préalable d'un environnement virtuel:
 
 ```
-$ pipenv run python main.py
+$ pipenv run python -m micromaze
 ```
